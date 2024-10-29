@@ -36,6 +36,8 @@ type Config struct {
 	// AllowPrivateNetwork indicates whether the response should include allow private network header
 	AllowPrivateNetwork bool
 
+	AllowAllHeaders bool
+
 	// AllowHeaders is list of non simple headers the client is allowed to use with
 	// cross-domain requests.
 	AllowHeaders []string
